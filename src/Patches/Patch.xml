@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Change BED  Stuff and Cloth -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "Bed"]/costStuffCount</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Bed"]/costStuffCount</xpath>
+				<value><costStuffCount>35</costStuffCount></value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>*/ThingDef[defName = "Bed"]/costStuffCount</xpath>
+				<value>
+				<costList>
+					<Cloth>10</Cloth>
+				</costList></value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Change DOUBLEBED  Stuff and Cloth -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "DoubleBed"]/costStuffCount</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "DoubleBed"]/costStuffCount</xpath>
+				<value><costStuffCount>65</costStuffCount></value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>*/ThingDef[defName = "DoubleBed"]/costStuffCount</xpath>
+				<value><costList>
+					<Cloth>20</Cloth>
+				</costList></value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Change ROYALBED  Stuff and Cloth -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "RoyalBed"]/costList</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "RoyalBed"]/costStuffCount</xpath>
+				<value><costStuffCount>80</costStuffCount></value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "RoyalBed"]/costList</xpath>
+				<value><Cloth>20</Cloth></value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Change HOSPITALBED  Stuff and Cloth -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "HospitalBed"]/costList</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "HospitalBed"]/costList/Steel</xpath>
+				<value><Steel>70</Steel></value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "HospitalBed"]/costList</xpath>
+				<value><Cloth>10</Cloth></value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Change SANDBAGS  Steel and Cloth -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "Sandbags"]/costList</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Sandbags"]/costList/Steel</xpath>
+				<value><Steel>3</Steel></value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[defName = "Sandbags"]/costList</xpath>
+				<value><Cloth>2</Cloth></value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Change ARMCHAIR add wood -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
+				<success>Normal</success>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
+				<value><costStuffCount>80</costStuffCount></value>
+			</li>
+			<li Class="PatchOperationInsert">
+				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
+				<value>
+				<costList>
+					<WoodLog>30</WoodLog>
+				</costList></value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>
