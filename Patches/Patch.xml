@@ -101,4 +101,53 @@
 		</operations>
 	</Operation>
 
+	<!-- Change Vanilla Furniture Expanded recipies -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName = "Bed_Simple"]/costStuffCount</xpath>
+					<value><costStuffCount>35</costStuffCount></value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>*/ThingDef[defName = "Bed_Simple"]/costStuffCount</xpath>
+					<value>
+					<costList>
+						<Cloth>5</Cloth>
+					</costList></value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName = "Bed_Ergonomic"]/costStuffCount</xpath>
+					<value><costStuffCount>50</costStuffCount></value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Bed_Ergonomic"]/costList</xpath>
+					<value><Cloth>10</Cloth></value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName = "Bed_DoubleErgonomic"]/costStuffCount</xpath>
+					<value><costStuffCount>90</costStuffCount></value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Bed_DoubleErgonomic"]/costList</xpath>
+					<value><Cloth>20</Cloth></value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>*/ThingDef[defName = "Bed_Kingsize"]/costStuffCount</xpath>
+					<value><costStuffCount>100</costStuffCount></value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Bed_Kingsize"]/costList</xpath>
+					<value><Cloth>20</Cloth></value>
+				</li>
+		</operations>
+		</match>
+	</Operation>
 </Patch>

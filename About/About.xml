@@ -3,19 +3,11 @@
 	<name>ClothMod</name>
 	<author>k_nord</author>
 	<targetVersion>1.0.2059</targetVersion>
-	<description>v1.4.1
+	<description>v1.5
 	
 Makes recipes feel little more "logical".
 
 This will make starting scenarios unable to build beds if there's no Cloth added to the base drops.
-
-Recips changes:
-- Sandbag: from 5 steel -> 3 steel and 2 Cloth.
-- Bed: Stuff from 45 -> 35 Stuff and 10 Cloth.
-- Double Bed: Stuff from 85 -> 65 Stuff and 20 Cloth.
-- Royal Bed: Stuff from 100 and 50 Gold -> 80 Stuff, 50 Gold and 20 Cloth.
-- Hospital Bed: Steel from 80 -> 70 Steel and 10 Cloth.
-
 
 1.1 addition:
 Changed the armchair to require a little backbone structure (added woodlog).
@@ -30,5 +22,22 @@ Updated reciepts to RimWorld 0.19 amounts.
 Updated reciepts to RimWorld 1.0.
 
 1.4.1 udpate:
-Removed the added wood to armchair.</description>
+Removed the added wood to armchair.
+
+1.5 update:
+Added support for Vanilla Furniture Expanded.
+
+
+Vanilla recipe changes:
+- Sandbag: from 5 steel -> 3 steel and 2 Cloth.
+- Bed: Stuff from 45 -> 35 Stuff and 10 Cloth.
+- Double Bed: Stuff from 85 -> 65 Stuff and 20 Cloth.
+- Royal Bed: Stuff from 100 and 50 Gold -> 80 Stuff, 50 Gold and 20 Cloth.
+- Hospital Bed: Steel from 80 -> 70 Steel and 10 Cloth.
+
+Vanilla Furniture Expanded recipe changes:
+- Simple bed: from 40 stuff -> 35 stuff and 5 cloth.
+- Ergonomic bed: from 60 stuff -> 50 stuff and 10 cloth.
+- Double Ergonomic bed: from 110 stuff -> 90 stuff and 20 cloth.
+- Kingsize bed: from 120 stuff -> 100 stuff and 20 cloth.</description>
 </ModMetaData>
