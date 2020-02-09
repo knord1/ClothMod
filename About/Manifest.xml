@@ -9,6 +9,6 @@
         <li>ExpandedCloth</li>
     </suggests>
     <showCrossPromotions>true</showCrossPromotions>
-    <manifestUri>https://github.com/knord1/ClothMod/tree/master/About/Manifest.xml</manifestUri>
+    <manifestUri>https://raw.githubusercontent.com/knord1/ClothMod/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/knord1/ClothMod/releases/latest</downloadUri>
 </Manifest>
