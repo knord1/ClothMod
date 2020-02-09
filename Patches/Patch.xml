@@ -101,26 +101,4 @@
 		</operations>
 	</Operation>
 
-	<!-- Change ARMCHAIR add wood -->
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
-				<success>Normal</success>
-			</li>
-			<li Class="PatchOperationReplace">
-				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
-				<value><costStuffCount>80</costStuffCount></value>
-			</li>
-			<li Class="PatchOperationInsert">
-				<xpath>*/ThingDef[defName = "Armchair"]/costStuffCount</xpath>
-				<value>
-				<costList>
-					<WoodLog>30</WoodLog>
-				</costList></value>
-			</li>
-		</operations>
-	</Operation>
-
 </Patch>
