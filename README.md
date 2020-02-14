@@ -1,7 +1,7 @@
 # ClothMod
 A RimWorld mod where I try to make recipes feel little more "logical".
 
-If you want to go even more "realistic" try the mod [\[T\]ExpandedCloth] (https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
+If you want to go even more "realistic" try the mod ['T'ExpandedCloth] (https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
 
 # 1.5
 Added a check for the mod [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143).
