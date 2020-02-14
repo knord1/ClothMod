@@ -1,5 +1,5 @@
 # ClothMod
-A RimWorld mod where I try to make recipes feel little more "logical".
+A RimWorld mod where I try to make recipes feel little more "logical" by adding cloth to a few recipes.
 
 If you want to go even more "realistic" try the mod [\[T\]ExpandedCloth](https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
 
