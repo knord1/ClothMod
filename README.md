@@ -27,3 +27,6 @@ Vanilla Furniture Expanded recipe changes:
 * Ergonomic bed: from 60 stuff -> 50 stuff and 10 cloth.
 * Double Ergonomic bed: from 110 stuff -> 90 stuff and 20 cloth.
 * Kingsize bed: from 120 stuff -> 100 stuff and 20 cloth.
+
+# Steam workshop
+you can get it here https://steamcommunity.com/sharedfiles/filedetails/?id=1544006397
