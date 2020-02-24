@@ -2,8 +2,12 @@
 <ModMetaData>
 	<name>ClothMod</name>
 	<author>k_nord</author>
-	<targetVersion>1.0.2059</targetVersion>
-	<description>v1.5
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>knord.clothmod</packageId>
+	<description>v1.6
 	
 Makes recipes feel little more "logical".
 
@@ -27,9 +31,14 @@ Removed the added wood to armchair.
 1.5 update:
 Added support for Vanilla Furniture Expanded.
 
+1.6 update:
+Made support for RimWorld 1.0 and 1.1.
+Removed sandbag receipt for WimWorld 1.1.
+Added packageId for mod 'knord.clothmod'.
+
 
 Vanilla recipe changes:
-- Sandbag: from 5 steel -> 3 steel and 2 Cloth.
+- Sandbag: from 5 steel -> 3 steel and 2 Cloth. (only for RimWorld 1.0)
 - Bed: Stuff from 45 -> 35 Stuff and 10 Cloth.
 - Double Bed: Stuff from 85 -> 65 Stuff and 20 Cloth.
 - Royal Bed: Stuff from 100 and 50 Gold -> 80 Stuff, 50 Gold and 20 Cloth.

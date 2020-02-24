@@ -3,6 +3,11 @@ A RimWorld mod where I try to make recipes feel little more "logical" by adding 
 
 If you want to go even more "realistic" try the mod [\[T\]ExpandedCloth](https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
 
+# 1.6
+Made support for RimWorld 1.0 and 1.1.
+Removed sandbag receipt for WimWorld 1.1.
+Added packageId for mod 'knord.clothmod'.
+
 # 1.5
 Added a check for the mod [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143).
 This means that if you want to have a little more cloth to your beds, this mod now adds it.
