@@ -5,36 +5,40 @@
 	<supportedVersions>
 		<li>1.0</li>
 		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<packageId>knord.clothmod</packageId>
-	<description>v1.6
+	<description>v1.6.1
 	
 Makes recipes feel little more "logical".
 
 This will make starting scenarios unable to build beds if there's no Cloth added to the base drops.
 
-1.1 addition:
-Changed the armchair to require a little backbone structure (added woodlog).
-
-1.2 addition:
-Addes some tests to see if items exists (For mod compability since some mods remove items).
-
-1.3 update:
-Updated reciepts to RimWorld 0.19 amounts.
-
-1.4 update:
-Updated reciepts to RimWorld 1.0.
-
-1.4.1 udpate:
-Removed the added wood to armchair.
-
-1.5 update:
-Added support for Vanilla Furniture Expanded.
+1.6.1 update:
+Made compatible with RimWorld 1.2.
 
 1.6 update:
 Made support for RimWorld 1.0 and 1.1.
 Removed sandbag receipt for WimWorld 1.1.
 Added packageId for mod 'knord.clothmod'.
+
+1.5 update:
+Added support for Vanilla Furniture Expanded.
+
+1.4.1 udpate:
+Removed the added wood to armchair.
+
+1.4 update:
+Updated reciepts to RimWorld 1.0.
+
+1.3 update:
+Updated reciepts to RimWorld 0.19 amounts.
+
+1.2 addition:
+Addes some tests to see if items exists (For mod compability since some mods remove items).
+
+1.1 addition:
+Changed the armchair to require a little backbone structure (added woodlog).
 
 
 Vanilla recipe changes:

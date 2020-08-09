@@ -3,6 +3,9 @@ A RimWorld mod where I try to make recipes feel little more "logical" by adding 
 
 If you want to go even more "realistic" try the mod [\[T\]ExpandedCloth](https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
 
+# 1.6.1
+Made compatible with RimWorld 1.2.
+
 # 1.6
 Made support for RimWorld 1.0 and 1.1.
 Removed sandbag receipt for WimWorld 1.1.
