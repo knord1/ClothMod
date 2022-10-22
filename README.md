@@ -3,6 +3,14 @@ A RimWorld mod where I try to make recipes feel little more "logical" by adding 
 
 If you want to go even more "realistic" try the mod [\[T\]ExpandedCloth](https://steamcommunity.com/sharedfiles/filedetails/?id=1543550117).
 
+# 1.6.3
+Made compatible with RimWorld 1.4
+(No recipe changes from RimWorld 1.2.)
+
+# 1.6.2
+Made compatible with RimWorld 1.3.
+(No recipe changes from RimWorld 1.2.)
+
 # 1.6.1
 Made compatible with RimWorld 1.2.
 
